@@ -1,0 +1,1 @@
+package com.monthlyexpo.dto.request; import com.monthlyexpo.enums.TractorExpenseCategory; import jakarta.validation.constraints.*; import java.math.BigDecimal; import java.time.LocalDate; public record TractorExpenseRequest(@NotNull LocalDate expenseDate,@NotNull TractorExpenseCategory category,@NotNull BigDecimal amount,String description){}

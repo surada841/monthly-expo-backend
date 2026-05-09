@@ -1,0 +1,1 @@
+package com.monthlyexpo.dto.request; import jakarta.validation.constraints.*; public record RegisterInitiateRequest(@NotBlank String name,@NotBlank String mobile,@Email String email,@Size(min=6) String password){}

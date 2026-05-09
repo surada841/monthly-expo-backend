@@ -1,0 +1,1 @@
+package com.monthlyexpo.dto.response; import java.math.BigDecimal; public record DashboardResponse(BigDecimal tractorIncome, BigDecimal tractorExpenses, BigDecimal tractorProfit, BigDecimal homeExpenses){}

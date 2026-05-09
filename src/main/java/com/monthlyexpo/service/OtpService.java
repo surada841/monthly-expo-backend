@@ -1,0 +1,1 @@
+package com.monthlyexpo.service; public interface OtpService { String sendRegistrationOtp(String mobile); boolean verifyRegistrationOtp(String mobile,String otp); String resendRegistrationOtp(String mobile); }

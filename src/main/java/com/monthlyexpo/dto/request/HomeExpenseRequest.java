@@ -1,0 +1,1 @@
+package com.monthlyexpo.dto.request; import jakarta.validation.constraints.*; import java.math.BigDecimal; import java.time.LocalDate; public record HomeExpenseRequest(@NotNull LocalDate expenseDate,@NotBlank String category,@NotNull BigDecimal amount,String description){}

@@ -1,0 +1,1 @@
+package com.monthlyexpo.service; import com.monthlyexpo.dto.request.*; import com.monthlyexpo.dto.response.LoginResponse; public interface AuthService { String initiate(RegisterInitiateRequest r); String verify(RegisterVerifyRequest r); LoginResponse login(LoginRequest r); String resend(String mobile); }

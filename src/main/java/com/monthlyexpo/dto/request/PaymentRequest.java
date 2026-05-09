@@ -1,0 +1,1 @@
+package com.monthlyexpo.dto.request; import com.monthlyexpo.enums.PaymentMode; import jakarta.validation.constraints.*; import java.math.BigDecimal; import java.time.LocalDate; public record PaymentRequest(@NotNull LocalDate paymentDate,@NotNull BigDecimal amount,@NotNull PaymentMode paymentMode,String notes){}

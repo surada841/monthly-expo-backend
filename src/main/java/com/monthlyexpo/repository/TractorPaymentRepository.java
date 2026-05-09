@@ -1,0 +1,1 @@
+package com.monthlyexpo.repository; import com.monthlyexpo.entity.TractorPayment; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface TractorPaymentRepository extends JpaRepository<TractorPayment,Long>{ List<TractorPayment> findByBookingId(Long bookingId); }
